@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Nexa';
+  src: url('Nexa-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('comfortaa-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body, a, p, h1, h2, h3, h4, h5, h6,
+input, button, span {
+  font-family: 'Nexa', Arial, sans-serif !important;
+}
+
+.survey-title {
+  font-family: 'Comfortaa', cursive, Arial, sans-serif !important;
+}
